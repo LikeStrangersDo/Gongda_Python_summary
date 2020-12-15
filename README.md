@@ -1,4 +1,4 @@
-# Incomplete Summary of Relevant Python Usage in My Research
+# Python for handling surface, satellites and GEOS-Chem data
 
 0. Introduction to Python
 1. Numerical Python
