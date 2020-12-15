@@ -1,5 +1,6 @@
 # Python for research in atmospheric sciences
 
+# Contents
 0. About Python
 1. Numerical computing
 2. Pandas dataframes
