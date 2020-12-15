@@ -1,4 +1,4 @@
-# Python for handling surface, satellites and GEOS-Chem data
+# Python for surface, satellites and GEOS-Chem data
 
 0. Introduction to Python
 1. Numerical Python
