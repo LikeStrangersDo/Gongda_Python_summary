@@ -8,7 +8,8 @@
 4. Handling NetCDF files
 5. Other Python usages
 
-After "0.0_Python_basics", you can jump to "1.0_Numpy" and "2.0_Pandas" directly. You can start your research very soon, only with some basics of Numpy and Pandas. You will feel better in this way. Come back at "0.1-0.5" after you are more familar with Python.
+## Suggestions for a beginner
+After "0.0_basics", you can jump to "1.0_Numpy" and "2.0_Pandas" directly. Then you will be able to start your research very soon, even with little knowledge of Numpy, Pandas and Python in general. You will feel better in this way. Come back at "0.1-0.5" after you are more familar with Python. Concepts in section 0 are not neccessary at the beginning.
 
 For other topics from 0.1 to 0.5, you can 
 
