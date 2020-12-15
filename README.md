@@ -24,5 +24,5 @@ After knowing some basics, jump to Numpy and Pandas directly. Then you will be a
 2. Matplotlib: https://matplotlib.org/index.html
 3. Xarray: http://xarray.pydata.org/en/stable/index.html
 
-## Learn by doing projects & learn by sovling problems
+## Learn by doing it
 Goolge your questions, you can always find same or simliar ones online, particularly on Stack Overflow: https://stackoverflow.com/.
