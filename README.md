@@ -21,7 +21,7 @@ Besides my notes here, I recommend the tutorials below. For a GEOS-Chem user, I 
 2. GEOS-Chem Python: https://github.com/geoschem/GEOSChem-python-tutorial
 
 ## Official guides 
-Offical guides are complete introduction to the packages. And normally you can just search for certain keywords to jump to what is helpful. Or you can have a look at the the "Examples" or "Gallery" to see the main applications of the package.
+Offical guides are complete introduction to the packages. And normally you can just search for certain keywords to jump to what is helpful. Or you can browse the "Examples" or "Gallery" to see the main applications of the package.
 
 0. Numpy: https://numpy.org/doc/stable/
 1. Pandas: https://pandas.pydata.org/docs/user_guide/index.html#user-guide
