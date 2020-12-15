@@ -4,4 +4,5 @@ list of Content
 1. Numpy and Scipy
 2. Pandas
 3. Polishing the figures
-4. Useful functions for research
+4. Handle NetCDF files
+5. Other useful functions for research
