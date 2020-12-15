@@ -5,4 +5,4 @@
 2. Pandas
 3. Data visualisation
 4. Handling NetCDF files
-5. Other useful Python usages for research
+5. Other Python usages in research
