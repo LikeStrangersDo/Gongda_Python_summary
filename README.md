@@ -1,15 +1,17 @@
 # Python for research in atmospheric sciences
 
 ## Contents
-0. About Python
+0. Introduction to Python
 1. Numerical computing
 2. Pandas dataframes
 3. Data visualisation
 4. Handling NetCDF files
-5. Other Python usages
+5. Other Python usages in research
+6. More advanced Python Knowledge
 
 ## Suggestions for a beginner
-After "0.0_basics" and "0.1_Flow_control", you can jump to "1.0_Numpy" and "2.0_Pandas" directly. Then you will be able to start your research very soon, even with little knowledge of Numpy, Pandas and Python in general. You will feel better in this way. Come back at "0.1-0.5" after you are more familar with Python. Concepts in section 0 are not all neccessary at the very beginning.
+After knowing some basics, jump to Numpy and Pandas, and then you will be able to use Python in your research already! Avoid any irrelevant aspects, [see suggestions from Jiawei Zhuang (author of GEOS-Chem Python)](https://github.com/geoschem/GEOSChem-python-tutorial#how-to-learn-python).
+
 
 ## Tutorials
 0. Python Data Science Handbook: https://jakevdp.github.io/PythonDataScienceHandbook/
