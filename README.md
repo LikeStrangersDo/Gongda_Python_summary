@@ -22,6 +22,7 @@ After knowing some basics, jump to Numpy and Pandas directly. Then you will be a
 0. Numpy: https://numpy.org/doc/stable/
 1. Pandas: https://pandas.pydata.org/docs/user_guide/index.html#user-guide
 2. Matplotlib: https://matplotlib.org/index.html
+3. Xarray: http://xarray.pydata.org/en/stable/index.html
 
 ## Additional resources:
 Ask your questions on Stack Overflow: https://stackoverflow.com/
