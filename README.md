@@ -1,4 +1,4 @@
-Summary of Python relevant in surface, satelllite, and GEOS-Chem
+# Incomplete Summary of Relevant Python Usage in My Research
 
 0. Introduction to Python
 1. Numerical Python
