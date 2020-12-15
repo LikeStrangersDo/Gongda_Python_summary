@@ -19,4 +19,4 @@
 2. Matplotlib: https://matplotlib.org/index.html
 
 # Additional resources:
-Find or ask your questions on Stack Overflow: https://stackoverflow.com/
+Ask your questions on Stack Overflow: https://stackoverflow.com/
