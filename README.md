@@ -25,4 +25,4 @@ After knowing some basics, jump to Numpy and Pandas directly. Then you will be a
 3. Xarray: http://xarray.pydata.org/en/stable/index.html
 
 ## Learn by doing projects & learn by sovling problems
-Just Google your questions, and you can always find same or simliar questions online, particularly on Stack Overflow: https://stackoverflow.com/.
+Goolge your questions, you can always find same or simliar ones online, particularly on Stack Overflow: https://stackoverflow.com/.
