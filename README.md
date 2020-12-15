@@ -11,5 +11,4 @@
 # References
 0. Python Data Science Handbook: https://jakevdp.github.io/PythonDataScienceHandbook/
 1. IPython Cookbook: https://ipython-books.github.io/
-2.
-3.
+2. GEOS-Chem ppython: https://github.com/geoschem/GEOSChem-python-tutorial
