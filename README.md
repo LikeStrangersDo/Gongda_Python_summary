@@ -14,7 +14,7 @@ After knowing some basics, jump to Numpy and Pandas directly. Then you will be a
 
 
 ## Tutorials
-Besides my notes here, I recommend the tutorials below. For a GEOS-Chem user, I particularly recommend the excellent tutorial by Jiawei Zhuang. That is the first Python tutorial that I found useful, as it sticks to research computing only, and uses examples from daily GEOS-Chem analysis.
+Besides my notes here, I recommend the tutorials below. For a GEOS-Chem user, I particularly recommend the excellent GEOS-Chem Python tutorial by Jiawei Zhuang. Because it sticks to research computing, and uses examples from daily GEOS-Chem analysis.
 
 0. Python Data Science Handbook: https://jakevdp.github.io/PythonDataScienceHandbook/
 1. IPython Cookbook: https://ipython-books.github.io/
