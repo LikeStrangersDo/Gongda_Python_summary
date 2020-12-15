@@ -9,7 +9,7 @@
 5. Other Python usages in research
 6. More advanced Python Knowledge
 
-## Suggestions for a beginner
+## Suggestions for beginners
 After knowing some basics, jump to Numpy and Pandas directly. Then you will be able to use Python in your research very soon! Ignore anything irrelevant, see suggestions from [Jiawei Zhuang (author of GEOS-Chem Python)](https://github.com/geoschem/GEOSChem-python-tutorial#how-to-learn-python).
 
 
@@ -24,5 +24,5 @@ After knowing some basics, jump to Numpy and Pandas directly. Then you will be a
 2. Matplotlib: https://matplotlib.org/index.html
 3. Xarray: http://xarray.pydata.org/en/stable/index.html
 
-## Additional resources:
-Ask your questions on Stack Overflow: https://stackoverflow.com/
+## Learn by doing projects - learn by sovling problems
+Just Google your questions, and you may always find same or simliar questions online. A paritcularly helpful site is  Stack Overflow: https://stackoverflow.com/.
