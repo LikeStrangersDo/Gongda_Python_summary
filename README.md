@@ -9,7 +9,7 @@
 5. Other Python usages
 
 ## Suggestions for a beginner
-After "0.0_basics" and "0.1_Flow_control", you can jump to "1.0_Numpy" and "2.0_Pandas" directly. Then you will be able to start your research very soon, even with little knowledge of Numpy, Pandas and Python in general. You will feel better in this way. Come back at "0.1-0.5" after you are more familar with Python. Concepts in section 0 are not neccessary at the beginning.
+After "0.0_basics" and "0.1_Flow_control", you can jump to "1.0_Numpy" and "2.0_Pandas" directly. Then you will be able to start your research very soon, even with little knowledge of Numpy, Pandas and Python in general. You will feel better in this way. Come back at "0.1-0.5" after you are more familar with Python. Concepts in section 0 are not all neccessary at the very beginning.
 
 ## Tutorials
 0. Python Data Science Handbook: https://jakevdp.github.io/PythonDataScienceHandbook/
