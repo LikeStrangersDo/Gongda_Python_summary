@@ -6,7 +6,7 @@
 2. Pandas dataframes
 3. Data visualisation
 4. Handling NetCDF files
-5. Other Python usages in research
+5. Other Python usages
 
 # Tutorials
 0. Python Data Science Handbook: https://jakevdp.github.io/PythonDataScienceHandbook/
