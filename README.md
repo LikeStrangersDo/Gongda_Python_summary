@@ -10,7 +10,7 @@
 6. More advanced Python Knowledge
 
 ## Suggestions for a beginner
-After knowing some basics, jump to Numpy and Pandas, and then you will be able to use Python in your research already! Ignore anything irrelevant, see suggestions from [Jiawei Zhuang (author of GEOS-Chem Python)](https://github.com/geoschem/GEOSChem-python-tutorial#how-to-learn-python).
+After knowing some basics, jump to Numpy and Pandas directly. Then you will be able to use Python in your research very soon! Ignore anything irrelevant, see suggestions from [Jiawei Zhuang (author of GEOS-Chem Python)](https://github.com/geoschem/GEOSChem-python-tutorial#how-to-learn-python).
 
 
 ## Tutorials
