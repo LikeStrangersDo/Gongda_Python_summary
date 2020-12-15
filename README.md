@@ -1,4 +1,4 @@
-# Python for research in atmospheric sciences
+# Python for research computing in atmospheric sciences
 
 ## Contents
 0. Introduction to Python
