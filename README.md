@@ -7,7 +7,7 @@
 3. Data visualisation
 4. Handling NetCDF files
 5. Other Python usages in research
-6. More advanced Python Knowledge
+6. More advanced Python knowledge
 
 ## Suggestions for beginners
 After knowing some basics, jump to Numpy and Pandas directly. Then you will be able to use Python in your research very soon! Ignore anything irrelevant, see suggestions from [Jiawei Zhuang (author of GEOS-Chem Python)](https://github.com/geoschem/GEOSChem-python-tutorial#how-to-learn-python).
