@@ -29,5 +29,5 @@ Offical guides provide complete introduction to the packages. And normally you c
 After knowing some basics, jump to Numpy and Pandas directly. Then you will be able to use Python in your research very soon! Ignore anything irrelevant, see suggestions from [Jiawei Zhuang (author of GEOS-Chem Python)](https://github.com/geoschem/GEOSChem-python-tutorial#how-to-learn-python). 
 You can use [Python IDEs](https://en.wikipedia.org/wiki/Integrated_development_environment) to help you edit and manage your codes: [PyCharm](https://www.jetbrains.com/pycharm/), [Spyder](https://www.spyder-ide.org/),[Jupyter Notebook](https://jupyter.org/), [JupyterLab](https://jupyter.org/), and many others. You can also go on without any of them.
 
-## Learn by doing it
-Goolge your questions, you can always find same or simliar ones online, particularly on Stack Overflow: https://stackoverflow.com/.
+## Goolge your questions
+You can always find questions that are same or simliar to yours online, particularly on Stack Overflow: https://stackoverflow.com/.
