@@ -26,7 +26,7 @@ Offical guides provide complete introduction to the packages. And normally you c
 4. Cartopy: https://scitools.org.uk/cartopy/docs/latest/index.html 
 
 ## Suggestions for beginners
-After knowing some basics, jump to Numpy and Pandas directly. Ignore anything irrelevant, see suggestions from [Jiawei Zhuang (author of GEOS-Chem Python)](https://github.com/geoschem/GEOSChem-python-tutorial#how-to-learn-python). You will be able to use Python in your research very soon! For questions that you can not solve, you can always find solutions online, particularly on Stack Overflow: https://stackoverflow.com/.
+After knowing some basics, jump to Numpy and Pandas directly. Ignore anything irrelevant, see suggestions from [Jiawei Zhuang (author of GEOS-Chem Python)](https://github.com/geoschem/GEOSChem-python-tutorial#how-to-learn-python). You will be able to use Python in your research very soon! For problems that you can not solve, there are always solutions online, particularly on stackoverflow: https://stackoverflow.com/.
 
 You can use [Python IDEs](https://en.wikipedia.org/wiki/Integrated_development_environment) to help you edit and manage your codes: [PyCharm](https://www.jetbrains.com/pycharm/), [Spyder](https://www.spyder-ide.org/),[Jupyter Notebook](https://jupyter.org/), [JupyterLab](https://jupyter.org/), and many others exist. You can also go on without any of them.
 
