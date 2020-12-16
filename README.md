@@ -11,10 +11,10 @@
 
 ## Suggestions for beginners
 After knowing some basics, jump to Numpy and Pandas directly. Then you will be able to use Python in your research very soon! Ignore anything irrelevant, see suggestions from [Jiawei Zhuang (author of GEOS-Chem Python)](https://github.com/geoschem/GEOSChem-python-tutorial#how-to-learn-python). 
-You can use [Python IDEs](https://en.wikipedia.org/wiki/Integrated_development_environment) to help you edit and manage your codes: [PyCharm](https://www.jetbrains.com/pycharm/), [Spyder](https://www.spyder-ide.org/),[Jupyter Notebook](https://jupyter.org/), [JupyterLab](https://jupyter.org/), and many more. You can also go on without any IDE.
+You can use [Python IDEs](https://en.wikipedia.org/wiki/Integrated_development_environment) to help you edit and manage your codes: [PyCharm](https://www.jetbrains.com/pycharm/), [Spyder](https://www.spyder-ide.org/),[Jupyter Notebook](https://jupyter.org/), [JupyterLab](https://jupyter.org/), and many others. You can also go on without any of them.
 
 ## Tutorials
-Besides my notes here, I recommend the tutorials below. For a GEOS-Chem user, I particularly recommend the excellent GEOS-Chem Python tutorial by Jiawei Zhuang. Because it sticks to research computing, and uses examples from everyday GEOS-Chem analysis.
+My notes here are more like cheatsheets for you to quickly find references or exsiting solutions to some problems in handling surface data, satellite observations, and GEOS-Chem model outputs. Besides these, I recommend the tutorials below, you may find them more helpful than my notes as they display the codes and results together. For a GEOS-Chem user, I particularly recommend the GEOS-Chem Python tutorial by Jiawei Zhuang. It uses examples from everyday GEOS-Chem analysis, and gets you working with Python immediately.
 
 0. Python Data Science Handbook: https://jakevdp.github.io/PythonDataScienceHandbook/
 1. IPython Cookbook: https://ipython-books.github.io/
