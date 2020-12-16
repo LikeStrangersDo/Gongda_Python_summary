@@ -1,4 +1,4 @@
-# Python for research computing in atmospheric sciences
+# Python notes for research computing in atmospheric sciences
 
 ## Contents
 0. Introduction to Python
@@ -8,10 +8,6 @@
 4. Handling NetCDF files
 5. Other Python usages in research
 6. More advanced Python knowledge
-
-## Suggestions for beginners
-After knowing some basics, jump to Numpy and Pandas directly. Then you will be able to use Python in your research very soon! Ignore anything irrelevant, see suggestions from [Jiawei Zhuang (author of GEOS-Chem Python)](https://github.com/geoschem/GEOSChem-python-tutorial#how-to-learn-python). 
-You can use [Python IDEs](https://en.wikipedia.org/wiki/Integrated_development_environment) to help you edit and manage your codes: [PyCharm](https://www.jetbrains.com/pycharm/), [Spyder](https://www.spyder-ide.org/),[Jupyter Notebook](https://jupyter.org/), [JupyterLab](https://jupyter.org/), and many others. You can also go on without any of them.
 
 ## Tutorials
 My notes here are more like cheatsheets for you to quickly find references or exsiting solutions to some problems in handling surface data, satellite observations, and GEOS-Chem model outputs. Besides these, I recommend the tutorials below, you may find them more helpful than my notes as they display the codes and results together. For a GEOS-Chem user, I particularly recommend the GEOS-Chem Python tutorial by Jiawei Zhuang. It uses examples from everyday GEOS-Chem analysis, and gets you working with Python immediately.
@@ -27,6 +23,10 @@ Offical guides are complete introduction to the packages. And normally you can j
 1. Pandas: https://pandas.pydata.org/docs/user_guide/index.html#user-guide
 2. Matplotlib: https://matplotlib.org/index.html
 3. Xarray: http://xarray.pydata.org/en/stable/index.html
+
+## Suggestions for beginners
+After knowing some basics, jump to Numpy and Pandas directly. Then you will be able to use Python in your research very soon! Ignore anything irrelevant, see suggestions from [Jiawei Zhuang (author of GEOS-Chem Python)](https://github.com/geoschem/GEOSChem-python-tutorial#how-to-learn-python). 
+You can use [Python IDEs](https://en.wikipedia.org/wiki/Integrated_development_environment) to help you edit and manage your codes: [PyCharm](https://www.jetbrains.com/pycharm/), [Spyder](https://www.spyder-ide.org/),[Jupyter Notebook](https://jupyter.org/), [JupyterLab](https://jupyter.org/), and many others. You can also go on without any of them.
 
 ## Learn by doing it
 Goolge your questions, you can always find same or simliar ones online, particularly on Stack Overflow: https://stackoverflow.com/.
