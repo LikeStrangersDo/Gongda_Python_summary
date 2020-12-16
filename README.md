@@ -10,7 +10,7 @@
 6. More advanced Python knowledge
 
 ## Tutorials
-My notes here are more like cheatsheets for you to quickly find references or exsiting solutions to some problems in handling surface data, satellite observations, and GEOS-Chem model outputs. Besides these, I recommend the tutorials below, you may find them more helpful than my notes as they display the codes and results together. For a GEOS-Chem user, I particularly recommend the GEOS-Chem Python tutorial by Jiawei Zhuang. It uses examples from everyday GEOS-Chem analysis, and gets you working with Python immediately.
+My notes here are more like cheatsheets for you to quickly find references or exsiting solutions to some problems in handling surface data, satellite observations, and GEOS-Chem model outputs. For learning Python, I recommend the tutorials below. You may find them more helpful than my notes, as they provide datasets with the codes, so you can actually run the codes and see the results of each step. For GEOS-Chem users, I particularly recommend the [GEOS-Chem Python tutorial](https://github.com/geoschem/GEOSChem-python-tutorial) by Jiawei Zhuang. It gets you working with Python immediately.
 
 0. Python Data Science Handbook: https://jakevdp.github.io/PythonDataScienceHandbook/
 1. IPython Cookbook: https://ipython-books.github.io/
