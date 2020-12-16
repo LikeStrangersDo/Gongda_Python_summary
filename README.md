@@ -2,7 +2,7 @@
 
 ## Contents
 0. Introduction to Python
-1. Numerical computing
+1. Numerical computation
 2. Pandas dataframes
 3. Data visualisation
 4. Handling NetCDF files
