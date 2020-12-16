@@ -17,12 +17,13 @@ My notes here are more like cheatsheets for you to quickly find references or ex
 2. GEOS-Chem Python: https://github.com/geoschem/GEOSChem-python-tutorial
 
 ## Official guides 
-Offical guides are complete introduction to the packages. And normally you can just search for certain keywords to jump to what is helpful. Or you can browse the "Examples" or "Gallery" to see the main applications of the package.
+Offical guides provide complete introduction to the packages. And normally you can just search for keywords to jump to what is helpful. You can browse the "Examples" or "Gallery" to see the main applications of the package. Here I list some of the core packages used in research:
 
 0. Numpy: https://numpy.org/doc/stable/
 1. Pandas: https://pandas.pydata.org/docs/user_guide/index.html#user-guide
-2. Matplotlib: https://matplotlib.org/index.html
-3. Xarray: http://xarray.pydata.org/en/stable/index.html
+2. Xarray: http://xarray.pydata.org/en/stable/index.html
+3. Matplotlib: https://matplotlib.org/index.html
+4. Cartopy: https://scitools.org.uk/cartopy/docs/latest/index.html 
 
 ## Suggestions for beginners
 After knowing some basics, jump to Numpy and Pandas directly. Then you will be able to use Python in your research very soon! Ignore anything irrelevant, see suggestions from [Jiawei Zhuang (author of GEOS-Chem Python)](https://github.com/geoschem/GEOSChem-python-tutorial#how-to-learn-python). 
