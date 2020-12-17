@@ -1,6 +1,6 @@
 ##############################################################################################
 ##############################################################################################
-# Function to conduct reduced major axis regression (originally written by Eloise)
+# Create a function to conduct reduced major axis regression (written by Eloise)
 # My modifications here:
 # 1> add "r" value into the output
 # 2> round the values from regression results
