@@ -33,18 +33,14 @@ os.chdir("C:\\Users\\geosc\\TEST")
 test_data = pd.read_csv("BTH_emissions_AW2017.csv")
 
 # now use R to access this dataframe and plot it using ggplot2
-
 # tell Jupyter Notebook that you are going to use R in this cell, and for the "test_data" generated using the Python
 %%R -i test_data 
 library(ggplot2)
-# must add "print()" statement to show the directory as the whole Jupyter cell runs altogether
-print(getwd()) 
-# ggplot2
+
 plot <- ggplot(test_data) + 
         geom_point(aes(NO_AW2017,SO2_AW2017),size = 20)
 plot
 ggsave('test.png')
-# so you can see, you are totally coding R here!
 ##############################################################################################
 # Example 2: download air quality data at a sample site using "importKCL" function from "openair" package
 
