@@ -15,7 +15,7 @@
 
 # Major steps:
 # Step 1: install R on Jupyter Notebook: conda install -c r r-essentials
-# Step 2: install the "rpy2" Python package: pip install rpy2
+# Step 2: install the "rpy2" Python package: pip install rpy2 (you may or may not have to check the version)
 # Step 3: create the environment variables: R_HOME, R_USER and R_LIBS_USER (you can modify these in the system settings on your PC or you can use codes to do this everytime)
 
 # When you are done with installing "rpy2"
