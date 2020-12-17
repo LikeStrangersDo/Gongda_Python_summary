@@ -6,8 +6,8 @@
 2. Pandas dataframes
 3. Data visualisation
 4. Handling NetCDF files
-5. Other Python usages in research
-6. More advanced Python knowledge
+5. Advanced Python knowledge
+6. Other Python usages
 
 ## Tutorials
 My notes here are more like cheatsheets for you to quickly find references or exsiting solutions to some problems in research. For learning Python, I recommend the tutorials below. You may find them more helpful than my notes, as they provide datasets with the codes, so you can actually run the codes and see the results of each step. For GEOS-Chem users, I particularly recommend the GEOS-Chem Python tutorial by Jiawei Zhuang. It gets you working with Python immediately.
