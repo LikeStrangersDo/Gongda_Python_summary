@@ -4,7 +4,7 @@
 # 1> download air quality data in the UK, using "importKCL" function from the "openair" R package
 # 2> use R as a sanity check for results from a certain step in Python
 
-# Here I provide a way of using R in Python, but only under the Jupyter Notebook on your own PC
+# Here I provide a way of using R in Python, but currently only under the Jupyter Notebook on your own PC
 # This means that you have the admin permission to install any R packages needed while proceeding the codes
 ##############################################################################################
 # When I first tried this, I found the solution on: https://anderfernandez.com/en/blog/how-to-program-with-python-and-r-in-the-same-jupyter-notebook/
