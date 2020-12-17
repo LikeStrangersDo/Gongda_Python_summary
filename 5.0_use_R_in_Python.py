@@ -1,14 +1,11 @@
 ##############################################################################################
 ##############################################################################################
-# Sometimes you may want to conduct only a small part of your job in R programming, for example:
+# Sometimes you may want to conduct only a small part of your job using R programming, for example:
 # 1> download air quality data in the UK, using "importKCL" function from the "openair" R package
-# 2> download NOAA meteorological data using "importNOAA" function from the "worldmet" R package
-# 3> use the weather-removal technique in "rmweather" R package
-# 4> some plots are hard to make using Python, while you have ggplot2 solutions already
-# 5> or you want to use R as a sanity check for results from a certain step in Python
+# 2> use R as a sanity check for results from a certain step in Python
 
 # Here I provide a way of using R in Python, but only under the Jupyter Notebook on your own PC
-# This means that you need the admin permission to install any packages while proceeding the codes
+# This means that you have the admin permission to install any R packages needed while proceeding the codes
 ##############################################################################################
 # When I first tried this, I found the solution on: https://anderfernandez.com/en/blog/how-to-program-with-python-and-r-in-the-same-jupyter-notebook/
 # But following this alone may not be enough, I did have to Goolge some errors during my installation process.
@@ -60,6 +57,7 @@ sample_data <- importKCL(site = "my1",
 # %%R -o sample_data
 # now you should be able to access "sample_data" in both R and Python cells
 ##############################################################################################
-# Known issues: some bugs may occur when you "library()" a package, you can just install it again within the Jupyter Notebook.
+# Remarks: Some bugs may occur when you "library()" a package, you can just install it again within the Jupyter Notebook.
+#          This may be doable on university HPC, the key is the admin permission. If the user is allowed to create his/her own micro environment, it should be fine.  
 # End
 ##############################################################################################
