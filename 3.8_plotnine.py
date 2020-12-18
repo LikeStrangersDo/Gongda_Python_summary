@@ -15,8 +15,6 @@ import pandas as pd
 os.chdir('C:\\Users\\geosc\\TEST')
 sample_data = pd.read_csv("BTH_emissions_AW2017.csv")
 
-# make a scatter plot 
-
 # import the plotnine package
 import plotnine as p9
 
