@@ -58,6 +58,6 @@ sample_data <- importKCL(site = "my1",
 # %%R -o sample_data
 # now you should be able to access "sample_data" in both R and Python cells
 
-# Know issue: some bugs may occur when you "library()" a package, you can just install it again within the Jupyter Notebook.     
+# Known issue: some bugs may occur when you "library()" a package, you can just install it again within the Jupyter Notebook.     
 # End
 ##############################################################################################
