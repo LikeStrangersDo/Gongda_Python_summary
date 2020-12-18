@@ -4,7 +4,7 @@
 
 # plotnine is almost a Python clone of "ggplot2" (a very powerful R package for data visualisation)
 # So the usages here are actually R codes from ggplot2, but with the Python coating
-# But this is different from coding R in Python using "rpy2", everything here is still interpreted as Python. 
+# But this is totally different from coding R within Python using modules like "rpy2", everything here is still interpreted as Python. 
 # You do not need to specify any "R cell" in the Jupyter Notebook for using this. You should be albe to use this in any Python environment.
 ##############################################################################################
 # Example 1: make a scatter plot using "geom_point" from "ggplot2"
