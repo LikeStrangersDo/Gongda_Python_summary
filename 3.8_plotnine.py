@@ -19,7 +19,7 @@ sample_data = pd.read_csv("BTH_emissions_AW2017.csv")
 import plotnine as p9
 
 # start plotting
-Test_plot = (p9.ggplot(test)  +
+Test_plot = (p9.ggplot(sample_data)  +
              p9.xlim(0,0.5)   +
              p9.ylim(0,0.5)   +
              p9.coord_fixed() +
