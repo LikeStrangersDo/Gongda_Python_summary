@@ -1,7 +1,9 @@
 ###############################################################################################
 ###############################################################################################
-# Here I introduce two ways of adding the shapefiles
+# For research publications, normally the shapefiles are needed to make maps
+# Then you can add data points or fill the grids to show your data upon the map (see "")
 
+# In this script, I focus on how to work with shapefiles
 # shapefiles source: https://gadm.org/download_country_v3.html
 # I am using a "shapefile" which consists of at least four actual files (.shp, .shx, .dbf, .prj). This is an obsolete, but still commonly used format. 
 # The new ".rds" format shapefiles seem to be designed only for use in R.
