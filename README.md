@@ -9,8 +9,10 @@
 5. Advanced Python knowledge
 6. Other Python usages
 
+Note: Codes here are not neccesarily the best or the only solutions to your specific problems.
+
 ## Tutorials
-My notes are about quick references or my solutions to some Python problems relevant to our research. To learn Python, I recommend the tutorials below. They provide datasets with the codes, so you can actually run the codes and see the results of each step. For GEOS-Chem users, I particularly recommend the GEOS-Chem Python tutorial by Jiawei Zhuang. It gets you working with Python immediately.
+To learn Python, I recommend the tutorials below. They provide datasets with the codes, so you can actually run the codes and see the results of each step. For GEOS-Chem users, I particularly recommend the GEOS-Chem Python tutorial by Jiawei Zhuang. It gets you working with Python immediately.
 
 0. Python Data Science Handbook: https://jakevdp.github.io/PythonDataScienceHandbook/
 1. IPython Cookbook: https://ipython-books.github.io/
