@@ -9,7 +9,7 @@
 5. Advanced Python knowledge
 6. Other Python usages
 
-Note: Codes here are not necessarily the best or the only solutions to your specific problems.
+Note: my codes here are not necessarily the best or the only solutions to your specific problems.
 
 ## Tutorials
 To learn Python, I recommend the tutorials below. They provide datasets with the codes, so you can actually run the codes and see the results of each step. For GEOS-Chem users, I particularly recommend the GEOS-Chem Python tutorial by Jiawei Zhuang. It gets you working with Python immediately.
