@@ -66,10 +66,10 @@ test.add_geometries(study_cities_shapes.geometry, crs=ccrs.PlateCarree(),edgecol
 test.set_extent([-5,2,51,57], crs=ccrs.PlateCarree())
 ###############################################################################################
 # Remarks:
-# 1> I prefer Method 2 as "Geopandas" allows you to have more controls of the shapefile
+# 1> I prefer Method 2 as "geopandas" allows more controls of the shapefile
 # 2> But it can be almost impossible to install geopandas on your PC, if you are following the instructions on its homepage.
-#    I managed to install it on windows following this video: https://www.youtube.com/watch?v=LNPETGKAe0c
-# 3> Since that "Geopandas" may not be always available on all platforms, Method 1 becomes somehow essential too.
+#    I managed to install it on my windows PC following this video: https://www.youtube.com/watch?v=LNPETGKAe0c
+# 3> Method 1 is easy to use on all platforms, but it is hard to manipulate the shapes.
 
 # End
 ###############################################################################################
