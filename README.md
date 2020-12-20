@@ -9,7 +9,7 @@
 5. Advanced Python knowledge
 6. Other Python usages
 
-Note: Codes here are not neccesarily the best or the only solutions to your specific problems.
+Note: Codes here are not necessarily the best or the only solutions to your specific problems.
 
 ## Tutorials
 To learn Python, I recommend the tutorials below. They provide datasets with the codes, so you can actually run the codes and see the results of each step. For GEOS-Chem users, I particularly recommend the GEOS-Chem Python tutorial by Jiawei Zhuang. It gets you working with Python immediately.
@@ -31,4 +31,3 @@ Offical guides provide complete introduction to the packages. And normally you c
 After knowing some basics, jump to Numpy and Pandas directly. Ignore anything irrelevant, see suggestions from [Jiawei Zhuang (author of GEOS-Chem Python)](https://github.com/geoschem/GEOSChem-python-tutorial#how-to-learn-python). You will be able to use Python in your research very soon! If you encounter any problems/bugs/errors, just Google them. It is very likely that you can find solutions online, particularly on stackoverflow: https://stackoverflow.com/.
 
 You can use [Python IDEs](https://en.wikipedia.org/wiki/Integrated_development_environment) to help you edit and manage your codes: [PyCharm](https://www.jetbrains.com/pycharm/), [Spyder](https://www.spyder-ide.org/),[Jupyter Notebook](https://jupyter.org/), [JupyterLab](https://jupyter.org/), and many others exist. You can also decide not to use any of them.
-
