@@ -6,7 +6,7 @@
 
 # Here I provide a way of using R in Python, but currently only with the Jupyter Notebook on your own PC
 # This means that you have the admin permission to install any R packages needed while proceeding the codes
-# This may be doable on university HPC, the key is the admin permission. If the user is allowed to create his/her own micro environment, then it should also be fine.  
+# This may also be achievable on university HPC, if the user can create his/her own micro environment and have full permission to it.  
 ##############################################################################################
 # When I first tried this, I found the solution on: https://anderfernandez.com/en/blog/how-to-program-with-python-and-r-in-the-same-jupyter-notebook/
 # But following this alone may not be enough, I did have to Goolge some errors during my installation process.
