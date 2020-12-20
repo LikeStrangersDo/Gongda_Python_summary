@@ -1,12 +1,12 @@
 ##############################################################################################
 ##############################################################################################
-# "ggplot2" is a very powerful data visualisation R package. But it may be too complicated to enable R within Python, especially if you just want to use "ggplot2".
-# You can use "plotnine", which is almost a Python clone of "ggplot2".
+# "ggplot2" is a very powerful R package for data visualisation.
+# In Python, you can use "plotnine", which is almost a clone of "ggplot2": https://plotnine.readthedocs.io/en/stable/
 # The function actually uses R codes from ggplot2, but with the Python coating.
-# This is different from coding R within Python using "rpy2", as everything here is still interpreted as Python. 
-# So you do not need to specify any "R cell" in the Jupyter Notebook for this. And you should be albe to use this under any Python environment.
+# This is different from coding R within Python using "rpy2", as codes here are still interpreted as Python. 
+# So you do not need to specify any "R cell" in the Jupyter Notebook for this. And you should be able to use this under any Python environment.
 ##############################################################################################
-# Example 1: make a scatter plot using "geom_point" from "ggplot2"
+# Example: 
 
 # read a sample data
 import os 
@@ -17,7 +17,7 @@ sample_data = pd.read_csv("BTH_emissions_AW2017.csv")
 # import the plotnine package
 import plotnine as p9
 
-# start plotting
+# make a scatter plot using "geom_point" from "ggplot2"
 Test_plot = (p9.ggplot(sample_data)  +
              p9.xlim(0,0.5)   +
              p9.ylim(0,0.5)   +
