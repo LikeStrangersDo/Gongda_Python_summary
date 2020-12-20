@@ -1,5 +1,13 @@
+##############################################################################################
+##############################################################################################
+# Make interactive plots using "plotly"
+
+# Advantages of interactive plots:
+# 1> You can save interactive plots as html files to carry extra information to help communicating your research.
+#    When presenting via online platforms like "Zoom", open all html files in advance. Then just switch the tabs using functions like "New Share".
+# 2> You can still output a few static images from a single interactive plot.
+
+# How "plotly" caught my eye: You can just use the cursor or codes to zoom in to see the details of a plot. 
+#                             Imagine that you have to check multiple parts on a timeseries plot of hourly data between 2013-2020.
 
 
-# save interactive plots as an html file
-# when present using online platforms like "Zoom", open all html files before the start of the presentation
-# then just need to switch the tabs using "New Share" during the presentation
