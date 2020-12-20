@@ -8,8 +8,8 @@
 # This means that you have the admin permission to install any R packages needed while proceeding the codes
 # This may also be achievable on university HPC, if the user can create his/her own micro environment and have full permission to it.  
 ##############################################################################################
-# When I first tried this, I found the solution on: https://anderfernandez.com/en/blog/how-to-program-with-python-and-r-in-the-same-jupyter-notebook/
-# But following this alone may not be enough, I did have to Goolge some errors during my installation process.
+# When I first tried this "R-to-Python", I was following this page: https://anderfernandez.com/en/blog/how-to-program-with-python-and-r-in-the-same-jupyter-notebook/
+# But this may not be enough, I remember I did have to Goolge some errors during my installation process.
 
 # Major steps:
 # Step 1: install R on Jupyter Notebook: conda install -c r r-essentials
