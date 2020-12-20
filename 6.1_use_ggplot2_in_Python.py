@@ -1,5 +1,8 @@
 ##############################################################################################
 ##############################################################################################
+# Sometimes it can be complicated to enable R within Python
+# And if you just need to use "ggplot2", you can run it directly without calling R
+
 # plotnine: A Grammar of Graphics for Python (https://plotnine.readthedocs.io/en/stable/)
 
 # plotnine is almost a Python clone of "ggplot2" (a very powerful R package for data visualisation)
