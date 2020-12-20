@@ -8,19 +8,17 @@
 # This means that you have the admin permission to install any R packages needed while proceeding the codes
 # This may also be achievable on university HPC, if the user can create his/her own micro environment and have full permission to it.  
 ##############################################################################################
-# When I first tried enable "R-to-Python", I was following this page: https://anderfernandez.com/en/blog/how-to-program-with-python-and-r-in-the-same-jupyter-notebook/
-# But this may not be enough, I remember I did have to Goolge some errors during my installation process.
+# When I first tried to connect R and Python, I was following this page: https://anderfernandez.com/en/blog/how-to-program-with-python-and-r-in-the-same-jupyter-notebook/
+# But this may not be enough, I remember I did have to Goolge some errors during the installation process.
 
-# Major steps:
+# Major steps in installing "rpy2":
 # Step 1: install R on Jupyter Notebook: conda install -c r r-essentials
 # Step 2: install the "rpy2" Python package: pip install rpy2 (you may or may not have to check the version)
 # Step 3: create the environment variables: R_HOME, R_USER and R_LIBS_USER (you can modify these in the system settings on your PC or you can use codes to do this everytime)
 
-# When you are done with installing "rpy2"
-# load the rpy2 module
+# load the rpy2 module after installation
+# Then you will be able to enable R cells within the Python Jupyter Notebook
 %load_ext rpy2.ipython
-
-# Then you will be able to enable an R cell in the Python Jupyter Notebook
 ##############################################################################################
 # Example 1: plot a dataframe using ggplot2
 
@@ -54,9 +52,8 @@ sample_data <- importKCL(site = "my1",
                          to_narrow = FALSE)
 
 # however with the codes above, the output "sample_data" can not be accessed in the Python cells
-# you need to output this to the Python environmental as well, using:
-# %%R -o sample_data
-# now you should be able to access "sample_data" in both R and Python cells
+# you need to output this to the Python environmental as well, using: "%%R -o sample_data" instead of a simple "%%R"
+# then you should be able to access "sample_data" in both R and Python cells
 
 # Known issue: some bugs may occur when you "library()" a package, you can just install it again within the Jupyter Notebook.     
 # End
