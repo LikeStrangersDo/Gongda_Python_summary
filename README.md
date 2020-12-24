@@ -12,7 +12,7 @@ My notes are for quick references, they are not necessarily the best or the only
 6. Other Python usages
 
 ## Tutorials
-For learning Python, I recommend the tutorials below. They provide datasets with the codes, so you can run the codes and see the results from each step. For GEOS-Chem users, I particularly recommend the GEOS-Chem Python tutorial by Jiawei Zhuang. It answers "Why Python" and gets you working with Python immediately.
+For learning Python, I recommend the tutorials below. They provide datasets with the codes, so you can run the codes and see the results from each step. For GEOS-Chem users, I particularly recommend the GEOS-Chem Python tutorial by Jiawei Zhuang. It gets you working with Python immediately.
 
 0. Python Data Science Handbook: https://jakevdp.github.io/PythonDataScienceHandbook/
 1. IPython Cookbook: https://ipython-books.github.io/
