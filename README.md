@@ -2,6 +2,7 @@
 
 ## Contents
 My notes are for quick references, they are not necessarily the best or the only solutions to your tasks.
+
 0. Introduction to Python
 1. Numerical computation
 2. Pandas dataframes
