@@ -1,5 +1,14 @@
 ##############################################################################################
 ##############################################################################################
+
+
+
+
+# check out sth like this: https://github.com/yhat/ggpy
+# https://pypi.org/project/ggplot/
+
+
+
 # "ggplot2" is a very powerful R package for data visualisation.
 # In Python, you can use "plotnine", which is almost a clone of "ggplot2": https://plotnine.readthedocs.io/en/stable/
 # The function actually uses R codes from ggplot2, but with the Python coating.
