@@ -1,4 +1,4 @@
-## Python notes for research in atmospheric chemistry
+## Python for research in atmospheric chemistry
 
 ## Contents
 0. Introduction to Python
