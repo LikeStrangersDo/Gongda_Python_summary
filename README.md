@@ -16,8 +16,8 @@ My notes here are more about quick references, and they are not necessarily the 
 1. IPython Cookbook: https://ipython-books.github.io/
 2. GEOS-Chem Python: https://github.com/geoschem/GEOSChem-python-tutorial
 
-## Managing the core Python packages
-For any Python package, user guides are always available on its homepage. You can browse the "Examples" or "Gallery" to see the main applications of a package. You can also find the full user guide in "Documentation". Here I list some of the core packages used in our research:
+## Core Python packages
+ Here I list some of the core packages frequently used in our research. For any Python package, user guides are always available on its homepage. You can browse the "Examples" or "Gallery" to see the main applications of a package. You can also find the full user guide in "Documentation".
 
 0. Numpy: https://numpy.org/doc/stable/
 1. Pandas: https://pandas.pydata.org/docs/user_guide/index.html#user-guide
