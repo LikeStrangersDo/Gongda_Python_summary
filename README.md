@@ -19,7 +19,7 @@ For learning Python, I recommend the tutorials below. They provide datasets with
 2. GEOS-Chem Python: https://github.com/geoschem/GEOSChem-python-tutorial
 
 ## Core packages
- Here I list some of the Python packages frequently used in our research. For any package, user guides are always available on its homepage. You can browse the "Examples" or "Gallery" to see the main applications of a package. You can also find the full user guide in "Documentation".
+ Here I list some of the Python packages frequently used in our research. For any package, instructions are always available on its homepage. You can browse the "Examples" or "Gallery" to see the main applications of a package, or find the full user guide in "Documentation".
 
 0. Numpy: https://numpy.org/doc/stable/
 1. Pandas: https://pandas.pydata.org/docs/user_guide/index.html#user-guide
