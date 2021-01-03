@@ -3,7 +3,7 @@
 ## Contents
 My notes are provided as a handy reference. They are not necessarily the best or only solutions to your reseach needs.
 
-0. Introduction to Python
+0. Python basics
 1. Numerical computation
 2. Pandas dataframes
 3. Data visualisation
