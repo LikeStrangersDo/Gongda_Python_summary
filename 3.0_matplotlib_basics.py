@@ -13,13 +13,15 @@
 # 1> the pyplot API 
 # 2> the object-oriented API
 
-# In this basic session, I am using the "pyplot" API.
+# In this basic session, I am using the "pyplot" API (version 3.1.1)
+# New features in later versions are not included here.
 ##############################################################################################
 
+# check your matplotlib version
+import matplotlib
+print(matplotlib.__version__)
 
-
-
-
+#
 
 
 
