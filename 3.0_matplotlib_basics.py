@@ -15,6 +15,8 @@
 
 # In this basic session, I am using the "pyplot" API (version 3.1.1)
 # New features in later versions are not included here.
+
+# However the user manual for Version 3.3.3 is much improved compared to that of 3.1.1.
 ##############################################################################################
 
 # check your matplotlib version
