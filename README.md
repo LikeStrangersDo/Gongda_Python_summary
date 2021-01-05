@@ -12,9 +12,7 @@ My notes are provided as a handy reference and focus on main topics related to o
 6. Other Python usages
 
 ## Core packages
-I have introduced some useful packages in my notes here. But for any Python package, there are numerous advanced usages that I do not know. You can find dedicated tutorials online for free (webpages, pdf documents or youtube videos). 
-
-The homepage of each Python package also provides valuable support. You can browse the "Examples" or "Gallery" to see the main applications of a package, or find the full user guide in "Documentation". Here are some examples:
+I have introduced some useful packages in my notes here. But for any Python package, there are numerous advanced usages that I do not know. You can find dedicated tutorials online for free (webpages, pdf documents or youtube videos). The homepage of each Python package also provides valuable support. You can browse the "Examples" or "Gallery" to see the main applications of a package, or find the full user guide in "Documentation". Here are some examples:
 
 0. Numpy: https://numpy.org/doc/stable/
 1. Pandas: https://pandas.pydata.org/docs/user_guide/index.html#user-guide
@@ -23,7 +21,7 @@ The homepage of each Python package also provides valuable support. You can brow
 4. Cartopy: https://scitools.org.uk/cartopy/docs/latest/index.html 
 
 ## Python tutorials
-For learning Python, I recommend the tutorials below. They provide datasets with the codes, so you can run the codes and see the results from each step. For GEOS-Chem users, I particularly recommend the GEOS-Chem Python tutorial by Jiawei Zhuang. It gets you working with Python immediately.
+For learning Python, I recommend the tutorials below. For GEOS-Chem users, I particularly recommend the GEOS-Chem Python tutorial by Jiawei Zhuang. You may be able to use Python to process GEOS-Chem model outputs in 1 or 2 days.
 
 0. Python Data Science Handbook: https://jakevdp.github.io/PythonDataScienceHandbook/
 1. IPython Cookbook: https://ipython-books.github.io/
