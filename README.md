@@ -1,7 +1,7 @@
 ## Python for research in atmospheric chemistry
 
 ## Contents
-My notes are provided as a handy reference. They are not necessarily the best or only solutions to your reseach needs.
+My notes are provided as a handy reference and focus on common problems in our research field (Python knowledge + data anlaysis + publishable plots + research presentations). They are not necessarily the best or only solutions to your reseach needs. I have introduced some useful packages here. But for any Python package, there are numerous advanced usages that I do not know. You can find dedicated tutorials online afterwards.
 
 0. Python basics
 1. Numerical computation
