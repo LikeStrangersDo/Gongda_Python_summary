@@ -21,7 +21,7 @@ I have introduced some packages that are useful to our research. But there are n
 4. Cartopy: https://scitools.org.uk/cartopy/docs/latest/index.html 
 
 ## Python tutorials
-For learning Python, I recommend the tutorials below. For GEOS-Chem users, I particularly recommend the GEOS-Chem Python tutorial by Jiawei Zhuang. You may be able to use Python to process GEOS-Chem model outputs in 1 or 2 days.
+For learning Python, I recommend the tutorials below. For GEOS-Chem users, I particularly recommend the [GEOS-Chem Python tutorial](https://github.com/geoschem/GEOSChem-python-tutorial) by Jiawei Zhuang. You may be able to use Python to process GEOS-Chem model outputs in 1 or 2 days.
 
 0. Python Data Science Handbook: https://jakevdp.github.io/PythonDataScienceHandbook/
 1. IPython Cookbook: https://ipython-books.github.io/
