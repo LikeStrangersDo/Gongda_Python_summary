@@ -1,7 +1,7 @@
 ## Python for research in atmospheric chemistry
 
 ## Contents
-My notes are provided as a handy reference and focus on main topics related to our research field (some Python knowledge + data anlaysis + publishable plots + research presentations). They are not necessarily the best or only solutions to your reseach needs. I have introduced some useful packages here. But for any Python package, there are numerous advanced usages that I do not know. You can find dedicated tutorials online afterwards.
+My notes are provided as a handy reference and focus on main topics related to our research field (some Python knowledge + data anlaysis + publishable plots + research presentations). They are not necessarily the best or only solutions to your reseach needs. 
 
 0. Python basics
 1. Numerical computation
@@ -11,21 +11,23 @@ My notes are provided as a handy reference and focus on main topics related to o
 5. Advanced Python knowledge
 6. Other Python usages
 
-## Python tutorials
-For learning Python, I recommend the tutorials below. They provide datasets with the codes, so you can run the codes and see the results from each step. For GEOS-Chem users, I particularly recommend the GEOS-Chem Python tutorial by Jiawei Zhuang. It gets you working with Python immediately.
-
-0. Python Data Science Handbook: https://jakevdp.github.io/PythonDataScienceHandbook/
-1. IPython Cookbook: https://ipython-books.github.io/
-2. GEOS-Chem Python: https://github.com/geoschem/GEOSChem-python-tutorial
-
 ## Core packages
- Here I list some of the Python packages frequently used in our research. For any package, instructions are always available on its homepage. You can browse the "Examples" or "Gallery" to see the main applications of a package, or find the full user guide in "Documentation".
+I have introduced some useful packages in my notes here. But for any Python package, there are numerous advanced usages that I do not know. You can find dedicated tutorials online for free (webpages, pdf documents or youtube videos). 
+
+The homepage of each Python package also provides valuable support. You can browse the "Examples" or "Gallery" to see the main applications of a package, or find the full user guide in "Documentation". Here are some examples:
 
 0. Numpy: https://numpy.org/doc/stable/
 1. Pandas: https://pandas.pydata.org/docs/user_guide/index.html#user-guide
 2. Xarray: http://xarray.pydata.org/en/stable/index.html
 3. Matplotlib: https://matplotlib.org/index.html#
 4. Cartopy: https://scitools.org.uk/cartopy/docs/latest/index.html 
+
+## Python tutorials
+For learning Python, I recommend the tutorials below. They provide datasets with the codes, so you can run the codes and see the results from each step. For GEOS-Chem users, I particularly recommend the GEOS-Chem Python tutorial by Jiawei Zhuang. It gets you working with Python immediately.
+
+0. Python Data Science Handbook: https://jakevdp.github.io/PythonDataScienceHandbook/
+1. IPython Cookbook: https://ipython-books.github.io/
+2. GEOS-Chem Python: https://github.com/geoschem/GEOSChem-python-tutorial
 
 ## Suggestions for beginners (need to re-write this part)
 Python is widely used in our field, it is worth focusing on it. Python is not perfect, it is faster than R, while still a lot slower than languages like C and Fortran. But languages like C and Fortran are not good for data visualsations and many other tasks in research. They are also not readable, so it is harder to maintain your codes and commmunicate your issues. Julia combines the speed of Fortran and the readable syntax of Python. But currently Julia is not as mature as Python, while a lot of packages have been well developed in Python (Python is particularly smart in handling NetCDF files which are freqently used in our research). Once you have managed Python, you can also develop applications for almost any other tasks outside our field using Python, as it is a general-purpose programming language.
