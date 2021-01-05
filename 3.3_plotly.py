@@ -11,6 +11,8 @@
 #                             Imagine that you have to check multiple parts on a timeseries plot of hourly data between 2013-2020.
 
 
+# also search some text or video tutorial about packages like plotly + bokeh
+# or actually you can always find tutorials on different aspects of Python (utilize these free resources)
 https://www.kaggle.com/kanncaa1/plotly-tutorial-for-beginners
 https://www.youtube.com/watch?v=GGL6U0k8WYA
   
