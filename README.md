@@ -11,7 +11,7 @@ My notes are provided as a handy reference and focus on usages related to our re
 5. Advanced Python knowledge
 6. Other Python usages
 
-## Core packages
+## Python packages
 I have introduced some packages that are useful to our research. But there are numerous usages that I do not know. For any package, you should be able to find dedicated tutorials online for free (webpages, pdf documents or videos). The homepage of each Python package also provides valuable support. You can browse the "Examples" or "Gallery" to see the main applications of a package, or find the full user guide in "Documentation" or "Tutorial". Here are some examples:
 
 0. Numpy: https://numpy.org/doc/stable/
