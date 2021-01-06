@@ -1,15 +1,14 @@
 ###############################################################################################
 ###############################################################################################
-# For research publications, normally the shapefiles are needed to make maps
-# Then you can add data points or fill the grids to show your data upon the map (see "")
-
+# The shapefiles can be used to make maps for research publications
+# Then you can add colored cicles or fill the background to show your data upon the map
 # In this script, I focus on how to work with shapefiles
+
 # shapefiles source: https://gadm.org/download_country_v3.html
 # I am using a "shapefile" which consists of at least four actual files (.shp, .shx, .dbf, .prj). This is an obsolete, but still commonly used format. 
-# The new ".rds" format shapefiles seem to be designed only for use in R.
-# For more about shapefile formats: https://gadm.org/formats.html
+# The new ".rds" format shapefiles seem to be designed only for use in R programming. (For more about shapefile formats: https://gadm.org/formats.html)
 
-# move to the directory for the files
+# move to the directory for the files before start
 import os
 os.chdir("C:\Study\Shapefile\gadm36_GBR_shp")
 ###############################################################################################
@@ -66,10 +65,10 @@ test.add_geometries(study_cities_shapes.geometry, crs=ccrs.PlateCarree(),edgecol
 test.set_extent([-5,2,51,57], crs=ccrs.PlateCarree())
 ###############################################################################################
 # Remarks:
-# 1> I prefer Method 2 as "geopandas" allows more controls of the shapefile
-# 2> But it can be almost impossible to install geopandas on your PC, if you are following the instructions on its homepage.
+# 1> I prefer Method 2 as "geopandas" allows more control of the shapefile
+# 2> But it is almost impossible to install geopandas following the instructions on its homepage: https://geopandas.org/install.html
 #    I managed to install it on my windows PC following this video: https://www.youtube.com/watch?v=LNPETGKAe0c
-# 3> Method 1 is easy to use on all platforms, but it is hard to manipulate the shapes.
+# 3> Method 1 is easy to use on all platforms, althought there is less control of the shapefile
 
 # End
 ###############################################################################################
