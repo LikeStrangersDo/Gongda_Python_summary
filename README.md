@@ -12,7 +12,7 @@ My [Python](https://www.python.org/) notes are provided as handy references and 
 6. Other Python usages
 
 ## Python packages
-I have introduced some packages that are useful to our research. But there are numerous usages that I do not know. For any package, you should be able to find dedicated tutorials online for free (webpages, pdf documents or videos). The homepage of each Python package also provides valuable support. You can browse the "Examples" or "Gallery" to see the main applications of a package, or find the full user guide in "Documentation" or "Tutorial". Here are some examples:
+I have introduced some Python packages in my notes. But there are numerous usages that I do not know. For any package, you should be able to find dedicated tutorials online for free (webpages, pdf documents or videos). The homepage of each Python package also provides valuable support. You can browse the "Examples" or "Gallery" to see the main applications of a package, or find the full user guide in "Documentation" or "Tutorial". Here are some examples:
 
 0. Numpy: https://numpy.org/doc/stable/
 1. Pandas: https://pandas.pydata.org/docs/user_guide/index.html#user-guide
