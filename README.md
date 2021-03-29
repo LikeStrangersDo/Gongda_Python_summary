@@ -1,10 +1,9 @@
 ## Python for research in atmospheric chemistry
 
 ## My notes
-My [Python](https://www.python.org/) notes are provided as handy references and focus on usages related to our research (data anlaysis + data visualisations + some small tools). These are based on my knowlege of Python, so they are not necessarily the best or only solutions to your tasks. I have introduced some Python packages in my notes. But there are numerous usages that I do not know. For any package, you should be able to find dedicated tutorials online.
+My [Python](https://www.python.org/) notes focus on usages related to our research (data anlaysis + data visualisations + some small tools). They are based on my knowlege of Python, so they are not necessarily the best or only solutions to your research needs. I have introduced some Python packages here, but there are numerous usages that I do not know. For Python or any specific package, you should be able to find dedicated tutorials online.
 
 The contents are organised as follows:
-
 0. Python basics
 1. Numerical computation
 2. Pandas dataframes
@@ -14,11 +13,12 @@ The contents are organised as follows:
 6. Other Python usages
 
 ## Python tutorials
-For learning Python, I recommend the tutorials below. For GEOS-Chem users, I strongly recommend the [Python/xarray tutorial for GEOS-Chem users](https://github.com/geoschem/GEOSChem-python-tutorial) by Jiawei Zhuang. 
+I recommend the below tutorials on learning Python for research coding. 
 
 0. Python Data Science Handbook: https://jakevdp.github.io/PythonDataScienceHandbook/
 1. IPython Cookbook: https://ipython-books.github.io/
-2. GEOS-Chem Python: https://github.com/geoschem/GEOSChem-python-tutorial
+
+For GEOS-Chem users, I strongly recommend the [Python/xarray tutorial for GEOS-Chem users](https://github.com/geoschem/GEOSChem-python-tutorial) by Jiawei Zhuang, and the [GCPy package](https://github.com/geoschem/gcpy) provided by GEOS-Chem team. 
 
 ## Suggestions for beginners
 Many programming languages exist in our field. [R](https://www.r-project.org/) is good for statistics, but it is slow for large datasets. [Fortran](https://en.wikipedia.org/wiki/Fortran) is fast for processing massive data, but it is not suitable for many other tasks, like data visualisations. [Julia](https://julialang.org/) is designed for high performance scientific computing and is getting popular. But currently it is not as mature as Python. [Click here](https://github.com/geoschem/GEOSChem-python-tutorial#why-python) to see more about the comparisons between Python and other programming languages (e.g. IDL, NCL and MATLAB).
