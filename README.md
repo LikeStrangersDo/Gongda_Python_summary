@@ -13,7 +13,7 @@ The contents are organised as follows:
 6. Other Python usages
 
 ## Python tutorials
-To learn Python for research coding, I recommend [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) and [IPython Cookbook](https://ipython-books.github.io/). For GEOS-Chem users, I strongly recommend the [Python/xarray tutorial for GEOS-Chem users](https://github.com/geoschem/GEOSChem-python-tutorial) by Jiawei Zhuang, and the [GCPy package](https://github.com/geoschem/gcpy) provided by GEOS-Chem team. 
+To learn Python for research computing, I recommend [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) and [IPython Cookbook](https://ipython-books.github.io/). For GEOS-Chem users, I strongly recommend the [Python/xarray tutorial for GEOS-Chem users](https://github.com/geoschem/GEOSChem-python-tutorial) by Jiawei Zhuang, and the [GCPy package](https://github.com/geoschem/gcpy) provided by GEOS-Chem team. 
 
 ## Suggestions for beginners
 Many programming languages exist in our field. [R](https://www.r-project.org/) is good for statistics, but it is slow for large datasets. [Fortran](https://en.wikipedia.org/wiki/Fortran) is fast for processing massive data, but it is not suitable for many other tasks, like data visualisations. [Julia](https://julialang.org/) is designed for high performance scientific computing and is getting popular. But currently it is not as mature as Python. [Click here](https://github.com/geoschem/GEOSChem-python-tutorial#why-python) to see more about the comparisons between Python and other programming languages (e.g. IDL, NCL and MATLAB).
