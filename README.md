@@ -1,7 +1,9 @@
 ## Python for research in atmospheric chemistry
 
-## Contents
-My [Python](https://www.python.org/) notes are provided as handy references and focus on usages related to our research (data anlaysis + data visualisations + some small tools). These are based on my knowlege of Python, so they are not necessarily the best or only solutions to your tasks. The contents are organised as follows:
+## My notes
+My [Python](https://www.python.org/) notes are provided as handy references and focus on usages related to our research (data anlaysis + data visualisations + some small tools). These are based on my knowlege of Python, so they are not necessarily the best or only solutions to your tasks. I have introduced some Python packages in my notes. But there are numerous usages that I do not know. For any package, you should be able to find dedicated tutorials online.
+
+The contents are organised as follows:
 
 0. Python basics
 1. Numerical computation
@@ -10,15 +12,6 @@ My [Python](https://www.python.org/) notes are provided as handy references and 
 4. Handling NetCDF files
 5. Advanced Python knowledge
 6. Other Python usages
-
-## Python packages
-I have introduced some Python packages in my notes. But there are numerous usages that I do not know. For any package, you should be able to find dedicated tutorials online for free (webpages, pdf documents or videos). The homepage of each Python package also provides valuable support. You can browse the "Examples" or "Gallery" to see the main applications of a package, or find the full user guide in "Documentation" or "Tutorial". Here are some examples:
-
-0. Numpy: https://numpy.org/doc/stable/
-1. Pandas: https://pandas.pydata.org/docs/user_guide/index.html#user-guide
-2. Xarray: http://xarray.pydata.org/en/stable/index.html
-3. Matplotlib: https://matplotlib.org/index.html#
-4. Cartopy: https://scitools.org.uk/cartopy/docs/latest/index.html 
 
 ## Python tutorials
 For learning Python, I recommend the tutorials below. For GEOS-Chem users, I strongly recommend the [Python/xarray tutorial for GEOS-Chem users](https://github.com/geoschem/GEOSChem-python-tutorial) by Jiawei Zhuang. 
