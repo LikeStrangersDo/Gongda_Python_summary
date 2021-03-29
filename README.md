@@ -1,5 +1,5 @@
 ## Python for research in atmospheric chemistry
-My notes focus on usages related to our research (data analysis + data visualisations). They are based on my knowlege of Python, so they are not necessarily the best or only solutions to your research needs, there are numerous Python usages that I do not know. 
+My notes focus on usages related to our research (data analysis and visualisations). They are based on my knowlege of Python, so they are not necessarily the best or only solutions to your research needs, there are numerous Python usages that I do not know. 
 
 My notes are organised as follows:
 
