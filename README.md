@@ -21,7 +21,7 @@ I have introduced some Python packages in my notes. But there are numerous usage
 4. Cartopy: https://scitools.org.uk/cartopy/docs/latest/index.html 
 
 ## Python tutorials
-For learning Python, I recommend the tutorials below. For GEOS-Chem users, I strongly recommend the [GEOS-Chem Python tutorial](https://github.com/geoschem/GEOSChem-python-tutorial) by Jiawei Zhuang. 
+For learning Python, I recommend the tutorials below. For GEOS-Chem users, I strongly recommend the [Python/xarray tutorial for GEOS-Chem users](https://github.com/geoschem/GEOSChem-python-tutorial) by Jiawei Zhuang. 
 
 0. Python Data Science Handbook: https://jakevdp.github.io/PythonDataScienceHandbook/
 1. IPython Cookbook: https://ipython-books.github.io/
