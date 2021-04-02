@@ -4,7 +4,7 @@
 
 
 
-
+# not really suitablef for use though, the output file is very big and the map is wrong. Only use this for little figures.
 
 
 import matplotlib.pyplot as plt
