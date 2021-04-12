@@ -42,3 +42,22 @@ for i in range(df.shape[0]):
         
 end = time.time()
 print("TIME",end - start)
+
+
+# but "&" is important, and can not be excluded, see the example here:
+
+# this works
+df1 = df[(df['lon'] > 114.5) &
+         (df['lon'] < 115) &
+         (df['lat'] > 35)  &
+         (df['lat'] < 40)]
+
+df1
+
+# but this does not work
+df2 = df[(df['lon'] > 114.5) and
+         (df['lon'] < 115) and
+         (df['lat'] > 35)  and
+         (df['lat'] < 40)]
+
+df2
