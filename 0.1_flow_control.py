@@ -61,3 +61,42 @@ df2 = df[(df['lon'] > 114.5) and
          (df['lat'] < 40)]
 
 df2
+
+
+
+
+
+
+
+######################################
+for var in input_list:
+    var = do_sth_to(var)
+    
+print(input_list)
+
+
+data = [1,2,3]
+data_out = []
+
+for var in data:
+    data_out.append(var+1)
+    
+print(data_out)
+
+
+a = 1
+b = 2
+c= 3
+
+list1 = []
+
+for X in [a,b,c]:
+    X = X+1
+    print(X)
+    list1.append(X)
+    
+    
+a,b,c=list1
+    
+#
+print("check outputs:",a,b,c)
