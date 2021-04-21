@@ -1,3 +1,6 @@
+add this as well: https://rstudio.github.io/reticulate/
+
+
 ##############################################################################################
 ##############################################################################################
 # Sometimes you may want to conduct only a certain step within your research using R programming, for example:
