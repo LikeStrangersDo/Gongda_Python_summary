@@ -8,7 +8,7 @@ My Python notes focus on usages in our research, but they are not necessarily th
 4. NetCDF files
 5. Advanced Python
 6. Small Python tools
-7. Connect Python, R and Julia
+7. Connect Python, R, Julia and SQL
 
 ## Python tutorials
 To learn Python for research computing, I recommend [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) and [IPython Cookbook](https://ipython-books.github.io/). For GEOS-Chem users, I strongly recommend the [Python/xarray tutorial for GEOS-Chem users](https://github.com/geoschem/GEOSChem-python-tutorial) by Jiawei Zhuang, and the [GCPy package](https://github.com/geoschem/gcpy) provided by GEOS-Chem team. 
