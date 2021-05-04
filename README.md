@@ -1,5 +1,5 @@
 ## Python for research in atmospheric chemistry
-Here I summarized some Python usages related to our research. But they are not necessarily the best solutions to your research needs, as I have my own preferences and there are many usages that I actually do not know.
+My Python notes focus on usages in our research, but they are not necessarily the best solutions to your specific research needs, as I have my own preferences and there are many usages that I actually do not know.
 
 0. Python basics
 1. Numerical computation
@@ -8,6 +8,7 @@ Here I summarized some Python usages related to our research. But they are not n
 4. Handling NetCDF files
 5. Advanced Python knowledge
 6. Other Python usages
+7. Connect Python, R and Julia
 
 ## Python tutorials
 To learn Python for research computing, I recommend [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) and [IPython Cookbook](https://ipython-books.github.io/). For GEOS-Chem users, I strongly recommend the [Python/xarray tutorial for GEOS-Chem users](https://github.com/geoschem/GEOSChem-python-tutorial) by Jiawei Zhuang, and the [GCPy package](https://github.com/geoschem/gcpy) provided by GEOS-Chem team. 
