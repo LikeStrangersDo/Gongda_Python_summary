@@ -5,9 +5,9 @@ My Python notes focus on usages in our research, but they are not necessarily th
 1. Numpy
 2. Pandas
 3. Data visualisation
-4. Handling NetCDF files
-5. Advanced Python knowledge
-6. Other Python usages
+4. NetCDF files
+5. Advanced Python
+6. Small Python tools
 7. Connect Python, R and Julia
 
 ## Python tutorials
