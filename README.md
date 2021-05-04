@@ -2,8 +2,8 @@
 My Python notes focus on usages in our research, but they are not necessarily the best solutions to your specific research needs, as I have my own preferences and there are many usages that I actually do not know.
 
 0. Python basics
-1. Numerical computation
-2. Pandas dataframes
+1. Numpy
+2. Pandas
 3. Data visualisation
 4. Handling NetCDF files
 5. Advanced Python knowledge
