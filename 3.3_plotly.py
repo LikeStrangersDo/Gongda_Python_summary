@@ -17,3 +17,4 @@ https://www.kaggle.com/kanncaa1/plotly-tutorial-for-beginners
 https://www.youtube.com/watch?v=GGL6U0k8WYA
   
   
+https://medium.com/codex/financial-charts-and-visuals-with-plotly-in-python-843ffa9341a9
