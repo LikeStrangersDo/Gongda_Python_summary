@@ -1,9 +1,3 @@
-# "Default" plotting tools
-# Pandas can do some plotting actually
-# Matplotlib
-# xxxx
-#
-#
-#
-#
-# Interactive Plots: Plotly, Bokeh
+# Here I just birefly introduce a few Python packages for data visualisations
+
+# 1> Matplotlib: 
