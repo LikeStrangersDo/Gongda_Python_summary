@@ -1,8 +1,13 @@
-Numpy link: https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650806164&idx=4&sn=bc030176ad053d9e713305c0f63484ad&chksm=84e5d3eab3925afceb58e893993187148724d18cb9cd7e905fc168794e8a56d39895c99028a2&mpshare=1&srcid=0106Ymfy9rHsbW3Ukq7PjtXs&sharer_sharetime=1609911562958&sharer_shareid=6daf80879e907bb0c12fdedb7dc18303&from=timeline&scene=2&subscene=2&clicktime=1612370524&enterid=1612370524&ascene=2&devicetype=android-26&version=27001140&nettype=WIFI&abtest_cookie=AAACAA%3D%3D&lang=zh_CN&exportkey=AXmsOwnVMzY0dbQA3tumrOk%3D&pass_ticket=LjHzAcOzyuZAdfNsLL%2FYqstIuXMBhrMt6KdrfaW61l3Z1zfeiEEzediX%2BJpMwuTZ&wx_header=1
+#####################################################################################################
+# Advatanges of Numpy:
+# Numpy is useful for handling ND arrays, as we are dealing with spatial datasets (lat,lon,height,time,variable1,variable2), numpy is a good tool to mange
+# Numpy is fast than for loops. Vectorized operations in Numpy are mapped to highly optimized C code, making them much faster than their standard Python counterparts.
 
-#####################################################################
-# Numpy
+# There is already a short and good visual guide to NumPy by Lev Maximov
+Original post: https://betterprogramming.pub/numpy-illustrated-the-visual-guide-to-numpy-3b1d4976de1d?gi=2bf5aae3a590
+Chinese version: https://zhuanlan.zhihu.com/p/342356377
 
+# here I just list some easy examples of numpy usages
 import numpy as np
 
 # array/matrix/sequence
@@ -27,7 +32,6 @@ print(y)
 
 # make an empty N-d array
 test = np.zeros((3,5))
-
 
 # End
 #####################################################################
