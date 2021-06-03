@@ -10,3 +10,5 @@
 # github page: https://github.com/geoschem/gcpy
 
 # maybe you can use GCpy as a sanity check for your current plotting schemes
+
+# https://corteva.github.io/rioxarray/stable/
