@@ -36,5 +36,8 @@ https://github.com/rougier/matplotlib-tutorial#introduction
 https://github.com/matplotlib/cheatsheets
 https://github.com/jbmouret/matplotlib_for_papers
 
+  
+# summarize API method for Matplotlib 
+  
 # End
 ##############################################################################################
