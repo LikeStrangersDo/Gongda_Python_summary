@@ -3,11 +3,16 @@
 # Numpy is useful for handling ND arrays, as we are dealing with spatial datasets (lat,lon,height,time,variable1,variable2), numpy is a good tool to mange
 # Numpy is fast than for loops. Vectorized operations in Numpy are mapped to highly optimized C code, making them much faster than their standard Python counterparts.
 
-# There is already a short and good visual guide to NumPy by Lev Maximov
-Original post: https://betterprogramming.pub/numpy-illustrated-the-visual-guide-to-numpy-3b1d4976de1d?gi=2bf5aae3a590
-Chinese version: https://zhuanlan.zhihu.com/p/342356377
+# Numpy is a core package of Python
+# You can visit its offical page for compreshensive understanding of numpy
+# 1> for beginners: https://numpy.org/doc/stable/user/absolute_beginners.html
+# 2> advanced users: https://numpy.org/doc/stable/reference/
 
-# here I just list some easy examples of numpy usages
+# And there is already a short and good visual guide to NumPy by Lev Maximov
+# Original post: https://betterprogramming.pub/numpy-illustrated-the-visual-guide-to-numpy-3b1d4976de1d?gi=2bf5aae3a590
+# Chinese version: https://zhuanlan.zhihu.com/p/342356377
+#####################################################################################################
+# so here I just list some easy examples of numpy usages
 import numpy as np
 
 # array/matrix/sequence
@@ -32,6 +37,10 @@ print(y)
 
 # make an empty N-d array
 test = np.zeros((3,5))
+#####################################################################################################
+# application of numpy in our research
+
+
 
 # End
 #####################################################################
