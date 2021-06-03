@@ -9,7 +9,7 @@
 # However, you should be able to solve all your problems using Pandas only
 # If speed is a problem, you can try to use paralle programming using "map" in Python, while sticking to Pandas
 #####################################################################################################
-# Here I just list some Pandas basics
+# Here I just list some Pandas basics and introduce the connections bewteen Pandas dataframes and Xarray data arrays (NetCDF)
 
 import os
 import glob
@@ -93,4 +93,9 @@ test.to_netcdf('China_NO2.nc')
 
 # check if the output is what you expected
 China_NO2_nc = xr.open_dataset('China_NO2.nc')
+#####################################################################################################
+# Apart from data wrangling, you can also make quick plots using Pandas
+# For me, this is just something to be aware of, I do not use it for formal figures in research publications
+
+# End
 #####################################################################################################
