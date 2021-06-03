@@ -1,10 +1,10 @@
 ############################################################################################################################
 ############################################################################################################################
-# Use "GeoViews" to create interactive maps for the shipping project
+# Use "GeoViews" to create interactive maps
 
 # advantages:
 # 1> zoom in to see the details
-# 2> combine multiple plots into a single file to see the changes
+# 2> combine multiple plots into a single file to see the changes along a long time period
 
 # load GeoViews package
 import geoviews as gv
@@ -25,9 +25,6 @@ import pandas as pd
 import xarray as xr
 import geopandas as gpd
 from cartopy import crs
-
-
-
 ############################################################################################################################
 # interactive maps for xarray data
 
@@ -44,12 +41,9 @@ sample_files = sorted(glob.glob("GEOSChem.AerosolMass*nc4"))
 sample_data = [xr.open_dataset(file) for file in sample_files]
 
 # get surface layer PM2.5
-#sample_PM = [data['PM25'].isel(time=0,lev=0) for data in sample_data]
 sample_PM = [data['PM25'].isel(lev=0) for data in sample_data]
-
-
 ############################################################################################################################
-# 1> make a basic interactive map
+# 1> make a basic interactive map using data from one time stamp only
 
 # first turn on "bokeh" backend to enable interactive map
 gv.extension('bokeh')
@@ -67,7 +61,6 @@ gv_image_out = gv_image.opts(cmap='jet', clim=(20,120), colorbar=True, width=800
 os.chdir('C:/TEST/')
 renderer = gv.renderer('bokeh')
 renderer.save(gv_image_out, 'sample_html_1')
-
 ############################################################################################################################
 # 2> add your own shape files to the map (https://geoviews.org/user_guide/Geometries.html)
 
@@ -88,25 +81,17 @@ os.chdir('C:/TEST/')
 renderer = gv.renderer('bokeh')
 renderer.save(gv_image_out, 'sample_html_2')
 
-
 # Method B: add shapefiles using Geopandas (but need to figure out how to remove fill color for the Polygons)
-
 import geopandas as gpd
 os.chdir("Y:/Study/Research_Data/BTH/domain/gadm36_CHN_shp")
 China_provinces = gpd.read_file("gadm36_CHN_1.shp")
-
 China_provinces = gv.Polygons(China_provinces)
-
 gv_image_out = gv_image.opts(cmap='jet', clim=(0,140), colorbar=True, width=800, height=500) * China_provinces
 
 # save out
 os.chdir('C:/TEST/')
 renderer = gv.renderer('bokeh')
 renderer.save(gv_image_out, 'sample_html_3')
-
-# Method C: check the examples
-
-
 ############################################################################################################################
 # 3> add points and texts to the map
 
@@ -133,18 +118,8 @@ gv_image_out = gv_image.opts(cmap='jet', clim=(0,140),
 os.chdir('C:/TEST/')
 renderer = gv.renderer('bokeh')
 renderer.save(gv_image_out, 'sample_html_6')
-
-
 ############################################################################################################################
-# 4> plot data from multiple days (add time dimension to the plot)
-
-############################################################################################################################
-# interactive maps for xarray data
-
-# get some xarray data from GEOS-Chem outputs
-import os
-import glob
-import xarray as xr
+# combine data maps on a few days into a single file
 
 # use your BTH GEOS-Chem results as the example
 os.chdir("Y:/RDS/GEOSChem/MODEL_OUTPUT/BTH/PM_components")
@@ -155,7 +130,7 @@ sample_data = [xr.open_dataset(file) for file in sample_files]
 
 # get surface layer PM2.5
 #sample_PM = [data['PM25'].isel(time=0,lev=0) for data in sample_data]
-sample_PM = [data['PM25'].isel(lev=0) for data in sample_data] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! watch this difference!
+sample_PM = [data['PM25'].isel(lev=0) for data in sample_data]
 
 
 # first turn on "bokeh" backend to enable interactive map
@@ -174,3 +149,4 @@ gv_image_out = gv_image.opts(cmap='jet', clim=(20,120), colorbar=True, width=800
 os.chdir('C:/TEST/')
 renderer = gv.renderer('bokeh')
 renderer.save(gv_image_out, 'sample_html_1')
+############################################################################################################################
