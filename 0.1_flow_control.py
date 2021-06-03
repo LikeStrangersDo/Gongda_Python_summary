@@ -2,7 +2,6 @@
 # Apart from "if else", there are other flow control statements like "if not", "break", "continue" and "try except catch" statements.
 # for a beginner, "if else" with "for loops" can solve almost all your problems
 # here we discuss a bit more about "if else" and "for loops"
-
 #####################################################################################################
 # speed up the "if else" statement
 
