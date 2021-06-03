@@ -1,12 +1,20 @@
-#####################################################################
-# Pandas basics
+#####################################################################################################
+# Pandas is extensively used and developed
+# I found this official guide very useful: https://pandas.pydata.org/pandas-docs/stable/user_guide/index.html
+# It should solve all your issues with Pandas
+# Apart from the normal usages of Pandas, there some fun but not neccesary tricks of using Pandas: https://towardsdatascience.com/30-examples-to-master-pandas-f8a2da751fa4
+
+# Some other powerful packages are developed based on Pandas, like "Dask": https://docs.dask.org/en/latest/ 
+# Pandas uses a single CPU, while A Dask DataFrame is a large parallel DataFrame composed of many smaller Pandas DataFrames, split along the index
+# However, you should be able to solve all your problems using Pandas only
+# If speed is a problem, you can try to use paralle programming using "map" in Python, while sticking to Pandas
+#####################################################################################################
+# Here I just list some Pandas basics
 
 import os
 import glob
 import pandas as pd
-
-
-#####################################################################
+#####################################################################################################
 # Work with data files
 
 # move to the working directory
@@ -20,7 +28,6 @@ surface_data  = [pd.read_csv(file) for file in surface_files]
 
 # select rows based on conditions of a certain column
 NO2  = [data[data['type'] == 'NO2'] for data in surface_data] 
-NO2 = xxx
 
 # merge the list of data frames into a single dataframe by rows
 NO2_total  = pd.concat(NO2) 
@@ -66,8 +73,8 @@ print(NO2_test)
 
 # save the pandas dataframe to csv
 NO2_total.to_csv('NO2_total.csv', index=False)
-
-# save the pandas dataframe to netcdf
+#####################################################################################################
+# save the pandas dataframe to netcdf files
 import xarray as xr
 
 # convert pandas data frame to xarray data format
@@ -86,7 +93,4 @@ test.to_netcdf('China_NO2.nc')
 
 # check if the output is what you expected
 China_NO2_nc = xr.open_dataset('China_NO2.nc')
-
-# some fun tips of Pandas: https://towardsdatascience.com/30-examples-to-master-pandas-f8a2da751fa4
-# apart from normal usages
-# add things like outputing multiple csv files with dynamic names - things like that
+#####################################################################################################
