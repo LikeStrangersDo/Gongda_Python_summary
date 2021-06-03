@@ -1,5 +1,5 @@
-## Python for research in atmospheric chemistry
-My Python notes focus on usages in our research, but they are not necessarily the best solutions to your specific research needs, as I have my own preferences and there are many usages that I actually do not know.
+## Python for research computing in atmopsheric/envirnomental/earth sciences
+My Python notes focus on usages in research computing for atmopsheric/envirnomental/earth sciences. However, they are not necessarily the best solutions to your specific research needs, as I have my own preferences and there are many Python usages that I actually do not know.
 
 0. Basics
 1. Numpy
@@ -11,7 +11,7 @@ My Python notes focus on usages in our research, but they are not necessarily th
 7. Connect Python, R, Julia and SQL
 
 ## Python tutorials
-To learn Python for research computing, I recommend [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) and [IPython Cookbook](https://ipython-books.github.io/). For GEOS-Chem users, I strongly recommend the [Python/xarray tutorial for GEOS-Chem users](https://github.com/geoschem/GEOSChem-python-tutorial) by Jiawei Zhuang, and the [GCPy package](https://github.com/geoschem/gcpy) provided by GEOS-Chem team. 
+To learn Python for research computing, I recommend [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) and [IPython Cookbook](https://ipython-books.github.io/). To get started with handling NetCDF files, I strongly recommend the [Python/xarray tutorial for GEOS-Chem users](https://github.com/geoschem/GEOSChem-python-tutorial) by Jiawei Zhuang. For GEOS-Chem users, there is also the [GCPy package](https://github.com/geoschem/gcpy) provided by GEOS-Chem team. 
 
 ## Suggestions for beginners
 Python is widely used in our field, as it has a few [advantanges over other programming languages](https://github.com/geoschem/GEOSChem-python-tutorial#why-python). Python is particularly smart in handling NetCDF files which are freqently used in our research. You should be able to resolve all your research computing problems using Python. And there is a very large Python user community so that you can easily seek support. Just Google your problems/bugs/errors, you will probably find existing solutions online, particularly on [Stack Overflow](https://stackoverflow.com/). 
