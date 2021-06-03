@@ -41,3 +41,38 @@ https://github.com/jbmouret/matplotlib_for_papers
   
 # End
 ##############################################################################################
+# Save out a static matplotlib figure as an interactive figure using "mpld3"
+
+# create simple figure
+import matplotlib.pyplot as plt
+import numpy as np
+
+fig = plt.figure(figsize=(15,7.5))
+ax = plt.axes()
+x = np.linspace(0, 10, 1000)
+ax.plot(x, np.sin(x))
+
+# create an interative figure (basic version)
+import mpld3
+
+html_str = mpld3.fig_to_html(fig)
+Html_file= open("sample.html","w")
+Html_file.write(html_str)
+Html_file.close()
+
+# create an interative figure (with edited style using CSS)
+import mpld3
+html_fragment = mpld3.fig_to_html(fig, figid = 'fig1')
+
+html_doc = f'''
+<style type="text/css">
+div#fig1 {{ text-align: center }}
+</style>
+
+{html_fragment}
+'''
+
+Html_file= open("sample.html","w")
+Html_file.write(html_doc)
+Html_file.close()
+##############################################################################################
