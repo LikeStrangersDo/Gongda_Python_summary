@@ -1,7 +1,10 @@
 ##############################################################################################
 ##############################################################################################
-# Create a function to conduct reduced major axis regression (written by Eloise)
-# My modifications here:
+# Reduced Major Axis regression is frequently used in atmopsheric sciences, as the model (predictions) and measurements (ground truth) are both subject to errors.
+# To conduct RMA regression, you can use "lmodel2" package in R
+# Currently there is not a Python package to achieve this, so here we create a function to conduct reduced major axis regression
+
+# The funcion below is originally adopted from Eloise, I have edited the codes to:
 # 1> add "r" value into the output
 # 2> round the values from regression results
 # 3> re-arrange the order of values before outputing
