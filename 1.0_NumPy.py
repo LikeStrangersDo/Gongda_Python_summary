@@ -38,9 +38,44 @@ print(y)
 # make an empty N-d array
 test = np.zeros((3,5))
 #####################################################################################################
-# application of numpy in our research
+# An example application of NumPy in our research
+# For some spatial analysis, we can use NumPy to generate some masks (e.g. scale factors for GEOS-Chem emissions)
 
+# Use North China Plain (NCP) as the example
+# first list lons and lats for GEOS-Chem grid centres over NCP, not the domain boundaries
+import numpy as np
 
+NCP_lon = np.arange(107.5,120+5/16,5/8) # use (start,end+resolution/2,resolution) to keep the maximum value
+NCP_lat = np.arange(32,43+1/4,1/2)
+time = np.array(['2020-01-01T00:00:00.000000000'], dtype='datetime64[ns]')
+print("Your lon:",NCP_lon,"#"*50,"Your lat:",NCP_lat,"#"*50,sep="\n")
+
+# Example 1 > apply a single scale factor of 1.5 to nitric oxide emissions
+NO_mask = np.full((1,len(NCP_lat),len(NCP_lon)), 1.5)
+
+# convert the NumPy array to Xarray so that you can save out the results as a NetCDF file
+import xarray as xr
+
+NO_mask = xr.DataArray(NO_mask, coords=[('time',time),('lat', NCP_lat),('lon', NCP_lon)])
+NO_mask.name = "MASK"
+NO_mask['lon'].attrs = {'long_name':'longitude','units':'degrees_east','axis':'X'}
+NO_mask['lat'].attrs = {'long_name':'Latitude','units':'degrees_north','axis':'Y'}
+NO_mask.attrs = {'long_name':'NO emission mask for North China Plain','units':'unitless'}
+NO_mask.to_netcdf("NCP_NO_mask.nc")
+
+# Example 2 > apply spatially varying factors for sulfur dioxide emissions
+
+# set base = 1, then apply factors only for some target grids only
+SO2_mask = np.ones((1,len(NCP_lat),len(NCP_lon)),dtype = float)
+
+# assign different factors [time,lat,lon]
+SO2_mask[0,8,6] = 6
+SO2_mask[0,8,9] = 3
+SO2_mask[0,11,8] = 3 
+SO2_mask[0,12,8] = 2 
+SO2_mask[0,12,10] = 2 
+SO2_mask[0,13,8] = 3 
+SO2_mask[0,15,8] = 3 
 
 # End
 #####################################################################
