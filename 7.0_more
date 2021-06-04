@@ -1,8 +1,0 @@
-some good practice while using Python:
-
-
-1> create new environment: conda env create -f environment
-2> address package dependencies: recursive testing
-3> share evironment with collegues: keep record of project packages using YAML file
-4> version control: Github, Gitlab, Bitbucket
-5> containerize/orchestration production codes: Docker, Kubernetes
