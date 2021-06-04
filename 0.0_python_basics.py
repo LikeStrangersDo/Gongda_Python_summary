@@ -1,5 +1,5 @@
 #####################################################################################################
-# some Python basics
+# some selected Python basics
 
 # Part 1: string, list, dictionary
 
