@@ -12,6 +12,7 @@ display(HTML("<style>.container { width:100% !important; }</style>"))
 #3> share evironment with collegues: keep record of project packages using YAML file
 #4> version control: Github, Gitlab, Bitbucket
 #5> containerize/orchestration production codes: Docker, Kubernetes
+# 6> also see the workshop led by John Roberts: https://maraisresearchgroup.co.uk/Presentations/JRoberts-Anatomy-of-Python.pdf
 
 # apart from the conventional "python your_script.py", you can use "pypy" to speed up the process
 # homepage of PyPy: https://doc.pypy.org/en/latest/introduction.html
@@ -26,3 +27,6 @@ https://sunscrapers.com/blog/the-quickest-introduction-to-julia-for-pythonistas/
 
 # Although this sounds not very necessary, but you can call Python in R
 https://rstudio.github.io/reticulate/
+
+# End
+#####################################################################################################
