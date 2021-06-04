@@ -2,7 +2,7 @@
 # Xarray is strong, but it is not suitable for some types of NetCDF4 files. For example, it can not properly open subgroups within a data file.
 # Then you can try "netCDF4" API: https://unidata.github.io/netcdf4-python/
 
-# Here I use TROPOMI satellite data to show how to use netCDF4 to extract data
+# Here I use TROPOMI satellite data to show how to use netCDF4 to extract data fields from subgroups
 #####################################################################################################################
 # load packages needed to read raw TROPOMI NO2 L2 products 
 
