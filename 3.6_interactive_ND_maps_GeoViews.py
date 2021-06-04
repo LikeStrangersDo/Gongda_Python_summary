@@ -132,7 +132,6 @@ sample_data = [xr.open_dataset(file) for file in sample_files]
 #sample_PM = [data['PM25'].isel(time=0,lev=0) for data in sample_data]
 sample_PM = [data['PM25'].isel(lev=0) for data in sample_data]
 
-
 # first turn on "bokeh" backend to enable interactive map
 gv.extension('bokeh')
 
