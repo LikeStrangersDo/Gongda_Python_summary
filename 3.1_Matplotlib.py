@@ -25,9 +25,9 @@ print(matplotlib.__version__)
 # https://github.com/matplotlib/cheatsheets
 # https://github.com/jbmouret/matplotlib_for_papers
 
-# Here I just introduce two dicussed features of Matplotlib figures
+# Here I just introduce two less dicussed tricks for Matplotlib
 ##############################################################################################
-# Feature 1
+# Trick 1
 
 # by default, Matplotlib saves out png files for the highest image quality
 # but if the file sizes of your figures are getting too big
@@ -42,7 +42,7 @@ def png_to_jpeg(input_filename,output_filename):
     image_rgb = image.convert('RGB')
     image_rgb.save(output_filename)
 ##############################################################################################
-# Feature 2
+# Trick 2
 # Matplotlib can create interactive plots, but you can also just save out a static matplotlib figure as an interactive figure using "mpld3"
 
 # create a simple figure
