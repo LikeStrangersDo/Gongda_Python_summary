@@ -292,19 +292,6 @@ month = "1901"
 quick_plot(NO2_xarray_1901,AS_domain,'NO$_2$ tropospheric column [$10^{15}$ molec. cm$^{-2}$]',0,2,str(domain)+"_NO2_"+str(month))
 quick_plot(HCHO_xarray_1901,AS_domain,'HCHO tropospheric column [$10^{15}$ molec. cm$^{-2}$]',0,5,str(domain)+"_HCHO_"+str(month))
 quick_plot(Ratio_xarray_1901,AS_domain,'HCHO/NO$_2$ ratio [unitless]',0,15,str(domain)+"_HCHO_NO2_Ratio_"+str(month))
-###########################################################################################################################
-###########################################################################################################################
-# additional notes:
-# if the file sizes of TROPOMI figures are too big
-# you can build a function to convert the png figures to jpeg figure
-# this will reduce the figure size while degrades the quality
-
-def png_to_jpeg(input_filename,output_filename):
-    '''Input a png filename like "test.png", save out a jpeg figure like "test.jpeg"'''
-    from PIL import Image
-    image = Image.open(input_filename)
-    image_rgb = image.convert('RGB')
-    image_rgb.save(output_filename)
     
 # End
 ###########################################################################################################################
