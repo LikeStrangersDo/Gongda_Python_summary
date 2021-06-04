@@ -2,7 +2,7 @@
 # Pandas is extensively used and developed
 # I found this official guide very useful: https://pandas.pydata.org/pandas-docs/stable/user_guide/index.html
 # It should solve all your issues with Pandas
-# Apart from the normal usages of Pandas, there some fun but not neccesary tricks of using Pandas: https://towardsdatascience.com/30-examples-to-master-pandas-f8a2da751fa4
+# Apart from the normal usages of Pandas, there are some fun but not neccesary tricks of using Pandas: https://towardsdatascience.com/30-examples-to-master-pandas-f8a2da751fa4
 
 # Some other powerful packages are developed based on Pandas, like "Dask": https://docs.dask.org/en/latest/ 
 # Pandas uses a single CPU, while A Dask DataFrame is a large parallel DataFrame composed of many smaller Pandas DataFrames, split along the index
