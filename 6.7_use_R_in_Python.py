@@ -1,6 +1,3 @@
-add this as well: https://rstudio.github.io/reticulate/
-
-
 ##############################################################################################
 ##############################################################################################
 # Sometimes you may want to conduct only a certain step within your research using R programming, for example:
@@ -60,11 +57,6 @@ sample_data <- importKCL(site = "my1",
 
 # Known issue: some bugs may occur when you "library()" a package, you can just install it again within the Jupyter Notebook.     
 # End
-##############################################################################################
-
-
-
-
 ##############################################################################################
 ##############################################################################################
 # "ggplot2" is a very powerful R package for data visualisation.
