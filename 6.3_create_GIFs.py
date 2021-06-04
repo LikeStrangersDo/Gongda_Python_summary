@@ -62,8 +62,8 @@ print('Time: ', stop - start)
 ##############################################################################################
 # Remarks:
 # both are very basic codes to generate gifs
-# pros: easy, fast and safe (online tools need time to upload the files, and I personally think that your files are no longer yours as soon as you upload them to some unknow online tools)
-# cons: little control of the output (image quality,output file size, output file pixel number...)
+# pros: easy to use, fast, safe and unlimited file size (opposite to online tools)
+# cons: less control of the output (image quality,output file size, output file pixel number...)
 
 # Known issue: The color bars become inconsistent among the frames, but you can overlay a static color bar image in the powerpoint to cover this. 
 
