@@ -1,5 +1,5 @@
 ## Python for research computing in atmopsheric sciences
-My notes here are mainly based on codes I wrote for my research (atmopsheric chemistry modeling) and some nice notes I obtained online articles. But these can also be applied to related fields within and beyond environmental sciences. My codes are not necessarily the best for your specific research needs, as I have my own preferences and there are many Python usages that I also do not know.
+My notes are based on my research codes and some online materials. These can also be applied to related fields within and beyond environmental sciences. I plan to keep updating this repository in my spare time. I hope these will be helpful for you.
 
 0. Basics
 1. Numpy
