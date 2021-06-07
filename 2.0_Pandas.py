@@ -80,6 +80,9 @@ import xarray as xr
 # convert pandas data frame to xarray data format
 test = xr.Dataset.from_dataframe(NO2_total)
 
+# you can also use pandas approach
+test = NO2_total.to_xarray()
+
 # see the data format is already changed
 test
 
