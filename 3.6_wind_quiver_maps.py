@@ -18,6 +18,7 @@
 # the length of the arrow does not really matter as long as they are consistent in unit
 
 # And apart from plotting wind arrows, you can also use this kind of technique to add any arrows onto your maps or figures when you need to highlight something.
+# It could be as simple as "plt.arrow(x=112.500-0.5, y=39.5, dx=0.5, dy=0, width=.08, color = "purple")" 
 
 # End
 ###########################################################################################################################
